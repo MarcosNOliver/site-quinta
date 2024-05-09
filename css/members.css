@@ -1,0 +1,196 @@
+/*Fernando*/
+
+.imgContent .fernando {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.imgContent .fernando p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.imgContent .fernando p:first-of-type {
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+.imgContent .fernando::before {
+    content: url("../img/10462345.png");
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 250px;
+    height: 445px;
+    opacity: 0;
+    background-color: rgba(236, 83, 83, 1);;
+    z-index: 2;
+    transition: all ease-in-out 150ms;
+}
+.imgContent .fernando:hover::before {
+    opacity: 50%;
+    transition: all ease-in-out 150ms;
+}
+
+/*Lucca*/
+
+.imgContent .lucca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.imgContent .lucca p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.imgContent .lucca p:first-of-type {
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+.imgContent .lucca::before {
+    content: url("../img/10462345.png");
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 250px;
+    height: 445px;
+    opacity: 0;
+    background-color: rgba(236, 83, 83, 1);
+    z-index: 2;
+    transition: all ease-in-out 150ms;
+}
+.imgContent .lucca:hover::before {
+    opacity: 50%;
+    transition: all ease-in-out 150ms;
+}
+/*Nando*/
+
+.imgContent .nando {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.imgContent .nando p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.imgContent .nando p:first-of-type {
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+.imgContent .nando::before {
+    content: url("../img/10462345.png");
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 250px;
+    height: 445px;
+    opacity: 0;
+    background-color: rgba(240, 230, 140, 1);
+    z-index: 2;
+    transition: all ease-in-out 150ms;
+}
+.imgContent .nando:hover::before {
+    opacity: 50%;
+    transition: all ease-in-out 150ms;
+}
+/*Marcos*/
+
+.imgContent .marcos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.imgContent .marcos p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.imgContent .marcos p:first-of-type {
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+.imgContent .marcos::before {
+    content: url("../img/10462345.png");
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 250px;
+    height: 445px;
+    opacity: 0;
+    background-color: rgba(70, 151, 44, 1);
+    z-index: 2;
+    transition: all ease-in-out 150ms;
+}
+.imgContent .marcos:hover::before {
+    opacity: 50%;
+    transition: all ease-in-out 150ms;
+}
+/*Chuck*/
+
+.imgContent .chuck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+.imgContent .chuck p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.imgContent .chuck p:first-of-type {
+    font-size: 1.3rem;
+    color: #FEFEFE;
+}
+.imgContent .chuck::before {
+    content: url("../img/10462345.png");
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 250px;
+    height: 445px;
+    opacity: 0;
+    background-color: rgba(70, 151, 44, 1);
+    z-index: 2;
+    transition: all ease-in-out 150ms;
+}
+.imgContent .chuck:hover::before {
+    opacity: 50%;
+    transition: all ease-in-out 150ms;
+}

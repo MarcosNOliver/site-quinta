@@ -1,0 +1,48 @@
+.mainView {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    position: relative;
+    min-height: 100vh;
+    color: #9fa0ac;
+    background: url("../img/foto_banda/principal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    padding: 20px; /* Espaço para reduzir a proximidade das bordas */
+}
+
+.shareBtn {
+    display: flex;
+    justify-content: space-around; /* Distribui os botões igualmente */
+    margin-bottom: 20px; /* Espaçamento entre os elementos */
+}
+
+.elementBtn {
+    width: 40px; /* Tamanho do botão */
+    height: 40px; /* Tamanho do botão */
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column; /* Ajusta o menu para ser vertical no mobile */
+    }
+
+    .ss-menu {
+        margin: 10px 0; /* Espaçamento para os botões */
+    }
+
+    .ss-menu img {
+        width: 30px; /* Reduz o tamanho da imagem */
+    }
+
+    .elementBtn {
+        width: 30px; /* Reduz o tamanho dos botões de compartilhamento */
+        height: 30px; /* Reduz o tamanho dos botões de compartilhamento */
+    }
+
+    #logo {
+        max-width: 80px; /* Reduz o tamanho do logo */
+    }
+}
